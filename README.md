@@ -1,57 +1,49 @@
 
-# https_website_easy_install
+# VPN 设置脚本
 
 ## diyixian VPN
 
+### 安装
 
-
-打开终端运行如下命令
-
+wget安装
 ```
 wget --no-check-certificate https://git.io/v7gsQ -q -O diyixianvpn.sh  && chmod 755 ./diyixianvpn.sh && ./diyixianvpn.sh
 ```
 
-或者
-
+curl安装
 ```
 \curl -sSL https://git.io/v7gsQ >> ./diyixianvpn.sh && chmod 755 ./diyixianvpn.sh && ./diyixianvpn.sh
-
 ```
 
+###运行
 
-```
-终端运行
-diyixianvpn
-开启diyixian vpn
-
-终端运行
-diyixianvpn off
-关闭diyixian vpn
-```
+ - 开启
+     diyixianvpn
+ - 关闭
+ 	diyixianvpn off
 
 
 
 ## kafei VPN
 
+### 安装
 
+wget安装
 ```
 wget --no-check-certificate https://git.io/v7gs7 -O kafeivpn.sh && chmod 755 ./kafeivpn.sh && ./kafeivpn.sh
 ```
-或者
 
-
+curl安装
 ```
 \curl -sSL https://git.io/v7gs7 >> ./kafeivpn.sh && chmod 755 ./kafeivpn.sh && ./kafeivpn.sh
 ```
 
-之后终端运行
 
-```
-终端运行
-kafeivpn
-开启kafeivpn vpn
+###运行
 
-终端运行
-kafeivpnvpn off
-关闭kafeivpn vpn
-```
+ - 开启
+ 	kafeivpn
+ - 关闭
+ 	kafeivpn off
+
+
