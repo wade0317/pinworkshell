@@ -26,6 +26,8 @@ FILE_NAME=".sh"
 if [[ $0 =~ $FILE_NAME ]]; then
 	echo $PASSWORD | sudo -S mv $0 /usr/local/bin/kafeivpn
 	echo $PASSWORD | sudo -S chmod 777 /usr/local/bin/kafeivpn
+	echo Install Done !!!
+	echo Use Command: 'kafeivpn' or 'kafeivpn off' 
 fi
 
 
