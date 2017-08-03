@@ -15,7 +15,7 @@ curl安装
 \curl -sSL https://git.io/v7gsQ >> ./diyixianvpn.sh && chmod 755 ./diyixianvpn.sh && ./diyixianvpn.sh
 ```
 
-###运行
+### 运行
 
  - 开启
      diyixianvpn
@@ -39,7 +39,7 @@ curl安装
 ```
 
 
-###运行
+### 运行
 
  - 开启
  	kafeivpn
