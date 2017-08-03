@@ -8,7 +8,7 @@
 打开终端运行如下命令
 
 ```
-	bash wget --no-check-certificate https://git.io/v7gsQ -q -O diyixianvpn.sh  && chmod 755 ./diyixianvpn.sh && ./diyixianvpn.sh
+wget --no-check-certificate https://git.io/v7gsQ -q -O diyixianvpn.sh  && chmod 755 ./diyixianvpn.sh && ./diyixianvpn.sh
 ```
 
 或者
@@ -17,10 +17,16 @@
 \curl -sSL https://git.io/v7gsQ >> ./diyixianvpn.sh && chmod 755 ./diyixianvpn.sh && ./diyixianvpn.sh
 
 ```
-之后终端运行
+
 
 ```
+终端运行
 diyixianvpn
+开启diyixian vpn
+
+终端运行
+diyixianvpn off
+关闭diyixian vpn
 ```
 
 
@@ -41,5 +47,11 @@ wget --no-check-certificate https://git.io/v7gs7 -O kafeivpn.sh && chmod 755 ./k
 之后终端运行
 
 ```
+终端运行
 kafeivpn
+开启kafeivpn vpn
+
+终端运行
+kafeivpnvpn off
+关闭kafeivpn vpn
 ```
